@@ -142,7 +142,7 @@ class ContactBookApp(App):
             conn = MySQLdb.connect(
                 host='localhost',  # The host name or IP address of the database server
                 user='root',       # The username for the database connection
-                password='2005',    # The password for the database connection
+                password='(enter password)',    # The password for the database connection
                 database='contact_book'  # The name of the database to connect to
             )
         except MySQLdb.Error as e:
